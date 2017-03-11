@@ -32,10 +32,6 @@
   host: !env_var OFFICE_TV_IP
   mac: !env_var OFFICE_TV_MAC
   name: Office TV
-- platform: samsungtv
-  host: !env_var BEDROOM_TV_IP
-  mac: !env_var BEDROOM_TV_MAC
-  name: Bedroom TV
 - platform: itunes
   host: !env_var ITUNES_IP
 - platform: apple_tv
