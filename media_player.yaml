@@ -42,7 +42,9 @@
   name: office_apple_tv
   host: !env_var OFFICE_APPLE_TV_IP
   login_id: !env_var APPLETV_LOGIN_ID
+  start_off: True
 - platform: apple_tv
   name: bedroom_apple_tv
   host: !env_var BEDROOM_APPLE_TV_IP
   login_id: !env_var APPLETV_LOGIN_ID
+  start_off: True
